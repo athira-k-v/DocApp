@@ -46,10 +46,10 @@ code {
   font-size: 50px;
   display: flex;
 }
-.r{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ .r{
+   display: flex;
+  /* align-items: center; 
+  justify-content: center; */
 }
 
 

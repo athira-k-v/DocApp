@@ -134,17 +134,18 @@ import { Box,Button } from '@mui/material';
             updateDoc(document, {
                 docsDesc: docsDesc
             })
-                .then(() => {
-                    toast.success('Document Saved', {
-                        autoClose: 2000
-                    })
-                })
-                .catch(() => {
-                    toast.error('Cannot Save Document', {
-                        autoClose: 2000
-                    })
-                })
-        }, 50)
+        //         .then(() => {
+        //             toast.success('Document Saved', {
+        //                 autoClose: 2
+        //             })
+        //         })
+        //         .catch(() => {
+        //             toast.error('Cannot Save Document', {
+        //                 autoClose: 2
+        //             })
+        //         })
+        }
+        )
         return () => clearTimeout(updateDocsData)
     }, [docsDesc])
 
